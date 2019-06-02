@@ -852,6 +852,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98ac2ae39aab4eaa873d6447262ee46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  standardTurret:
+    prefab: {fileID: 1203632436134350893, guid: ac739ab628cbb45fcba419b040e79e7c,
+      type: 3}
+    cost: 100
+  missileLauncher:
+    prefab: {fileID: 153120352767168642, guid: ec23908d7a6c549aabe67455ce297b18, type: 3}
+    cost: 250
 --- !u!1 &117106557
 GameObject:
   m_ObjectHideFlags: 0
@@ -7658,7 +7665,7 @@ PrefabInstance:
     - target: {fileID: 5100336806537219548, guid: 019584006141f492fa0e5b4eb3449b60,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseMissileLauncher
+      value: SelectMissileLauncher
       objectReference: {fileID: 0}
     - target: {fileID: 5100336806537219548, guid: 019584006141f492fa0e5b4eb3449b60,
         type: 3}
@@ -18324,7 +18331,7 @@ PrefabInstance:
     - target: {fileID: 5100336806537219548, guid: 019584006141f492fa0e5b4eb3449b60,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseStandardTurret
+      value: SelectStandardTurret
       objectReference: {fileID: 0}
     - target: {fileID: 5100336806537219548, guid: 019584006141f492fa0e5b4eb3449b60,
         type: 3}
