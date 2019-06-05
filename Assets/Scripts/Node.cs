@@ -95,9 +95,12 @@ public class Node : MonoBehaviour
         PlayerStats.Money += turretBlueprint.sellAmount;
         // Get rid of old turret
         Destroy(turret);
+        turretBlueprint = null;
 
-        GameObject effect = (GameObject)Instantiate(buildManager.destoryEffect, GetBuildPosition(), Quaternion.identity);
-        Destroy(effect, 5f);
+        GameObject sell_effect = (GameObject)Instantiate(buildManager.sellEffect, GetBuildPosition(), Quaternion.identity);
+        GameObject destroy_effect = (GameObject)Instantiate(buildManager.destroyEffect, GetBuildPosition(), Quaternion.identity);
+        Destroy(sell_effect, 5f);
+        Destroy(destroy_effect, 3f);
 
         Debug.Log("Turret Sold!");
     }

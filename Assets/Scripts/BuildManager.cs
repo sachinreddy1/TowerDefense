@@ -21,7 +21,8 @@ public class BuildManager : MonoBehaviour
     public GameObject laserBeamerPrefab;
 
     public GameObject buildEffect;
-    public GameObject destoryEffect;
+    public GameObject sellEffect;
+    public GameObject destroyEffect;
     private TurretBlueprint turretToBuild;
     private Node selectedNode;
 
