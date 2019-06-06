@@ -12518,26 +12518,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
-    count: 1
-    rate: 1
-  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
-    count: 3
+    count: 4
     rate: 1
   - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
     count: 8
-    rate: 1
-  - enemy: {fileID: 3332407438955278135, guid: a8f4517df2af545f895ac2987ee574cd, type: 3}
-    count: 3
-    rate: 1
+    rate: 1.2
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 12
+    rate: 1.4
   - enemy: {fileID: 3332407438955278135, guid: a8f4517df2af545f895ac2987ee574cd, type: 3}
     count: 6
-    rate: 2
-  - enemy: {fileID: 3332407438955278135, guid: 0677a61c1db244be3b8dc92386727a45, type: 3}
-    count: 8
-    rate: 2
+    rate: 1
+  - enemy: {fileID: 3332407438955278135, guid: a8f4517df2af545f895ac2987ee574cd, type: 3}
+    count: 12
+    rate: 1.2
   - enemy: {fileID: 3332407438955278135, guid: 0677a61c1db244be3b8dc92386727a45, type: 3}
     count: 10
-    rate: 3
+    rate: 1
+  - enemy: {fileID: 3332407438955278135, guid: a8f4517df2af545f895ac2987ee574cd, type: 3}
+    count: 18
+    rate: 1.4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 16
+    rate: 1.6
+  - enemy: {fileID: 3332407438955278135, guid: a8f4517df2af545f895ac2987ee574cd, type: 3}
+    count: 26
+    rate: 1.2
+  - enemy: {fileID: 3332407438955278135, guid: 0677a61c1db244be3b8dc92386727a45, type: 3}
+    count: 18
+    rate: 1.4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 30
+    rate: 1.4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
+  - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
+    count: 18
+    rate: 4
   - enemy: {fileID: 3332407438955278135, guid: f1f1b694688874f09a0fdabda51a568d, type: 3}
     count: 18
     rate: 4
@@ -12596,7 +12632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60296b81643a475784a6ab5a25d487f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 325
+  startMoney: 3000
   startLives: 1
 --- !u!114 &1491468946
 MonoBehaviour:
@@ -19112,6 +19148,168 @@ PrefabInstance:
       propertyPath: sceneFader
       value: 
       objectReference: {fileID: 32121462}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.prefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.costs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.prefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.costs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.prefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.costs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.prefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1203632436134350893, guid: ac739ab628cbb45fcba419b040e79e7c,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.prefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 6286817688845941800, guid: 3aa7d67d6ee6742d2a00c19699a22e7d,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 6286817688845941800, guid: 33d117c62774d4af58a43d41b2a38246,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.prefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 6286817688845941800, guid: 9715281ee27b048feabed8c49e4abd8e,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.costs.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.costs.Array.data[1]
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.costs.Array.data[2]
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: standardTurret.costs.Array.data[3]
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.prefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 153120352767168642, guid: ec23908d7a6c549aabe67455ce297b18,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.prefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 153120352767168642, guid: 1c42c2331dab44ea7922a6252df8dd33,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 153120352767168642, guid: 9e9dda4184a6b42adb7da947c49ec951,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.prefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 153120352767168642, guid: 90e323fb66280468c8680d92725b789d,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.costs.Array.data[0]
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.costs.Array.data[1]
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.costs.Array.data[2]
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: missileLauncher.costs.Array.data[3]
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.prefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 9140870492333898295, guid: 4f26ed2a93a074795ba958f79bc167f3,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.prefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 9140870492333898295, guid: 1398985da4efc444b853ba8bb3c29552,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 9140870492333898295, guid: 94aa3ffe235964f14b678223161e1911,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.prefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 9140870492333898295, guid: 64be75a8c93aa49ba99c641c135e9ba5,
+        type: 3}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.costs.Array.data[0]
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.costs.Array.data[1]
+      value: 425
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.costs.Array.data[2]
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510015002253800776, guid: c5a9978d6cf834d0aa7b2cf6cf963663,
+        type: 3}
+      propertyPath: laserBeamer.costs.Array.data[3]
+      value: 725
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5a9978d6cf834d0aa7b2cf6cf963663, type: 3}
 --- !u!1001 &6900581461997011432

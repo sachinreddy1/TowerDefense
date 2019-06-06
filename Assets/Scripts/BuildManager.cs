@@ -23,6 +23,7 @@ public class BuildManager : MonoBehaviour
     public GameObject buildEffect;
     public GameObject sellEffect;
     public GameObject destroyEffect;
+
     private TurretBlueprint turretToBuild;
     private Node selectedNode;
 
@@ -32,7 +33,7 @@ public class BuildManager : MonoBehaviour
 
     public TurretBlueprint GetTurretToBuild() { return turretToBuild; }
 
-    public bool HasMoney { get { return PlayerStats.Money >= turretToBuild.cost; } }
+    public bool HasMoney { get { return PlayerStats.Money >= turretToBuild.costs[0]; } }
 
     public void SelectNode (Node node) {
 
