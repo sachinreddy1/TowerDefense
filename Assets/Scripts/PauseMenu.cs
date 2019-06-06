@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-
     public GameObject ui;
     public SceneFader sceneFader;
 
